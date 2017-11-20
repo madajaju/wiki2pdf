@@ -1,0 +1,80 @@
+{
+  "name": "wiki2pdf",
+  "version": "1.0.0",
+  "description": "Generate HTML & PDF documentation from Github wiki or any other markdown-based wiki.",
+  "keywords": [
+    "wiki",
+    "wikito",
+    "wiki to",
+    "wiki converter",
+    "wiki convert",
+    "wiki to converter",
+    "wikito converter",
+    "wiki2html",
+    "md2html",
+    "markdown2html",
+    "github2html",
+    "github wiki to html",
+    "github wikito html",
+    "wiki to html",
+    "md to html",
+    "markdown to html",
+    "github to html",
+    "github wiki to html",
+    "wiki2pdf",
+    "md2pdf",
+    "markdown2pdf",
+    "github2pdf",
+    "github wikito pdf",
+    "github wiki to pdf",
+    "wikito pdf",
+    "wiki to pdf",
+    "md to pdf",
+    "markdown to pdf",
+    "github to pdf",
+    "github wiki to pdf"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --recursive test/unit",
+    "coverage": "node --harmony --harmony_arrow_functions ./node_modules/istanbul/lib/cli.js cover ./node_modules/.bin/_mocha --report html -- -R spec --recursive test/unit",
+    "build": "echo done",
+    "build-and-install-g": "npm run build && npm install -g"
+  },
+  "bin": {
+    "wiki2pdf": "src/cli/wiki2pdf.js"
+  },
+  "engines": {
+    "node": ">= 0.10",
+    "iojs": ">= 1.0"
+  },
+  "author": "Yakiv Mospan <yakiv.mospan@gmail.com> (https://github.com/yakivmospan)",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yakivmospan/github-wikito-converter"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "bluebird": "^2.11.0",
+    "bootstrap": "^3.3.7",
+    "commander": "^2.11.0",
+    "datauri": "^1.0.5",
+    "defaults": "^1.0.3",
+    "fs-extra": "^0.23.1",
+    "highlight.js": "^8.9.1",
+    "html-pdf": "^2.2.0",
+    "jquery": "^2.2.4",
+    "marked": "^0.3.6",
+    "node-dir": "^0.1.17",
+    "open": "0.0.5",
+    "winston": "^1.1.2"
+  },
+  "devDependencies": {
+    "babel-core": "^5.8.23",
+    "eslint": "^1.2.1",
+    "istanbul": "^0.3.19",
+    "mocha": "^2.2.5",
+    "require-dir": "^0.3.0",
+    "should": "^7.0.4"
+  }
+}
