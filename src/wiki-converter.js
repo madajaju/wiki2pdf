@@ -120,7 +120,6 @@ class WikiConverter {
    * @returns {wiki-converter}
    */
   computeCssFiles() {
-
     this.cssFiles = [
       // path.join(__dirname, '..', 'node_modules', 'bootstrap', 'dist', 'css', 'bootstrap.css'),
      //  path.join(__dirname, '..', 'node_modules', 'highlight.js', 'styles', 'default.css'),
@@ -128,7 +127,11 @@ class WikiConverter {
       path.join(this.cssPath, 'doc.css')
     ]
 
+
+    console.log("CSS Log Files", this.cssFiles);
+
     this.options.userCssFile && this.cssFiles.push(path.resolve(this.options.userCssFile))
+    console.log("CSS Log Files", this);
     return this
   }
 
