@@ -1,6 +1,6 @@
 {
   "name": "wiki2pdf",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Generate HTML & PDF documentation from Github wiki or any other markdown-based wiki.",
   "keywords": [
     "wiki",
@@ -48,10 +48,10 @@
     "node": ">= 0.10",
     "iojs": ">= 1.0"
   },
-  "author": "Yakiv Mospan <yakiv.mospan@gmail.com> (https://github.com/yakivmospan)",
+  "author": "Darren Pulsipher <darren@pulsipher.org> (http://githib.com/madajaju)",
   "repository": {
     "type": "git",
-    "url": "https://github.com/yakivmospan/github-wikito-converter"
+    "url": "https://github.com/madajaju/wiki2pdf"
   },
   "license": "MIT",
   "dependencies": {

@@ -122,7 +122,7 @@ class WikiConverter {
   computeCssFiles() {
 
     this.cssFiles = [
-      path.join(__dirname, '..', 'node_modules', 'bootstrap', 'dist', 'css', 'bootstrap.min.css'),
+      path.join(__dirname, '..', 'node_modules', 'bootstrap', 'dist', 'css', 'bootstrap.css'),
       path.join(__dirname, '..', 'node_modules', 'highlight.js', 'styles', 'default.css'),
       path.join(__dirname, '..', 'node_modules', 'highlight.js', 'styles', this.options.highlightTheme + '.css'),
       path.join(this.cssPath, 'doc.css')
