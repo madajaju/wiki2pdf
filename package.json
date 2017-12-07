@@ -1,6 +1,6 @@
 {
   "name": "wiki2pdf",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Generate HTML & PDF documentation from Github wiki or any other markdown-based wiki.",
   "keywords": [
     "wiki",
