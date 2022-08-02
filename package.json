@@ -64,7 +64,7 @@
     "highlight.js": "^8.9.1",
     "html-pdf": "^2.2.0",
     "jquery": "^2.2.4",
-    "marked": "^0.3.6",
+    "marked": "^4.0.10",
     "node-dir": "^0.1.17",
     "open": "0.0.5",
     "winston": "^1.1.2"
