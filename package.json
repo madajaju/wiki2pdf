@@ -70,10 +70,10 @@
     "winston": "^1.1.2"
   },
   "devDependencies": {
-    "babel-core": "^5.8.23",
+    "babel-core": "^6.26.3",
     "eslint": "^1.2.1",
-    "istanbul": "^0.3.19",
-    "mocha": "^2.2.5",
+    "istanbul": "^0.4.5",
+    "mocha": "^10.1.0",
     "require-dir": "^0.3.0",
     "should": "^7.0.4"
   }
